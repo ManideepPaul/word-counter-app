@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainContainer {
+    background: linear-gradient(to right, #ADD653, #5FD6E3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.contentContainer {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.dashBoard {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px 10px 10px;
+    gap: 20px;
+}
+
+h1 {
+    padding: 5px 0 5px 0;
+    background-color: bisque;
+    border-radius: 10px 10px 0 0;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+textarea {
+    font-family: 'Noto Sans Mono', monospace;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
